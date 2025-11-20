@@ -4,9 +4,9 @@ import numpy as np
 
 # 读取.nii文件
 nii_image_gt = nib.load(
-    r'D:\Project\changshu_gaijin\Q-Net-main\data\CMR\cmr_MR_normalized\image_16.nii.gz')
+    r'image_1.nii.gz')
 nii_image_pred = nib.load(
-    r'D:\Project\changshu_gaijin\Q-Net-main\runs\Ours_train_CMR_cv2\1\interm_preds\prediction_16_LV-MYO.nii.gz')
+    r'prediction_1_LV-MYO.nii.gz')
 
 # 获取图像数据
 image_data_gt = nii_image_gt.get_fdata()
