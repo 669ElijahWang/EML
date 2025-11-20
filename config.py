@@ -62,8 +62,8 @@ def cfg():
 
     
     # Network
-    # reload_model_path = '/home/SQQ/fsmis/ADNet/runs/ADNet_train_CHAOST2_cv0/1/snapshots/1000.pth'
-    reload_model_path = r'D:\Project\changshu_gaijin\Q-Net-main\runs\models_4.8\29000.pth'
+    # reload_model_path = 'runs/ADNet_train_CHAOST2_cv0/1/snapshots/1000.pth'
+    reload_model_path = r'19000.pth'
     
     # Prototype Refinement1
     n_iters=10
